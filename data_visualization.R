@@ -1,10 +1,10 @@
-GISTEMP_data <- read.csv(file.path("C:/Users/Aparna/Downloads/Programming Assignment 1 Data New", "ExcelFormattedGISTEMPDataCSV.csv"),header = TRUE,stringsAsFactors = FALSE,na.strings = c("***","****"))
+GISTEMP_data <- read.csv(file.path("F:file path", "ExcelFormattedGISTEMPDataCSV.csv"),header = TRUE,stringsAsFactors = FALSE,na.strings = c("***","****"))
 
 sum(is.na(GISTEMP_data))
 
 GISSTEMP_Data_New <- na.omit(GISTEMP_data)
 
-GISSTEMP_Global_Data <- read.csv(file.path("C:/Users/Aparna/Downloads/Programming Assignment 1 Data New", "ExcelFormattedGISTEMPData2CSV.csv"))
+GISSTEMP_Global_Data <- read.csv(file.path("F:file path", "ExcelFormattedGISTEMPData2CSV.csv"))
 
 sum(is.na(GISSTEMP_Global_Data))
 
